@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ED62F9214970F2B00A93C22 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED62F9114970F2B00A93C22 /* UIKit.framework */; };
+		6ED62F9414970F2B00A93C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED62F9314970F2B00A93C22 /* Foundation.framework */; };
+		6ED62F9614970F2B00A93C22 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED62F9514970F2B00A93C22 /* CoreGraphics.framework */; };
+		6ED62F9C14970F2B00A93C22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ED62F9A14970F2B00A93C22 /* InfoPlist.strings */; };
+		6ED62F9E14970F2B00A93C22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62F9D14970F2B00A93C22 /* main.m */; };
+		6ED62FA214970F2B00A93C22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62FA114970F2B00A93C22 /* AppDelegate.m */; };
+		6ED62FA514970F2B00A93C22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62FA414970F2B00A93C22 /* ViewController.m */; };
+		6ED62FA814970F2B00A93C22 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ED62FA614970F2B00A93C22 /* ViewController.xib */; };
+		6ED62FBA149716AC00A93C22 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62FB9149716AC00A93C22 /* Model.m */; };
+		6ED62FBC149716BE00A93C22 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED62FBB149716BE00A93C22 /* libsqlite3.dylib */; };
+		6ED62FBE1497186A00A93C22 /* template.db in Resources */ = {isa = PBXBuildFile; fileRef = 6ED62FBD1497186A00A93C22 /* template.db */; };
+		6ED62FC61497A03600A93C22 /* CharsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62FC41497A03600A93C22 /* CharsViewController.m */; };
+		6ED62FC71497A03600A93C22 /* CharsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ED62FC51497A03600A93C22 /* CharsViewController.xib */; };
+		6ED62FCA1497A36300A93C22 /* Chars.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62FC91497A36300A93C22 /* Chars.m */; };
+		6ED62FE21497AC7800A93C22 /* TegakiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62FE01497AC7700A93C22 /* TegakiViewController.m */; };
+		6ED62FE31497AC7800A93C22 /* TegakiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ED62FE11497AC7800A93C22 /* TegakiViewController.xib */; };
+		6ED62FEA1497ADBF00A93C22 /* TegakiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62FE91497ADBF00A93C22 /* TegakiView.m */; };
+		6ED62FED1497B57800A93C22 /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62FEC1497B57700A93C22 /* Stroke.m */; };
+		6ED62FFC1497BDB600A93C22 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62FF11497BDB600A93C22 /* NSObject+SBJSON.m */; };
+		6ED62FFD1497BDB600A93C22 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62FF31497BDB600A93C22 /* NSString+SBJSON.m */; };
+		6ED62FFE1497BDB600A93C22 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62FF51497BDB600A93C22 /* SBJSON.m */; };
+		6ED62FFF1497BDB600A93C22 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62FF71497BDB600A93C22 /* SBJsonBase.m */; };
+		6ED630001497BDB600A93C22 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62FF91497BDB600A93C22 /* SBJsonParser.m */; };
+		6ED630011497BDB600A93C22 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED62FFB1497BDB600A93C22 /* SBJsonWriter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6ED62F8D14970F2B00A93C22 /* TegakiStroke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TegakiStroke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ED62F9114970F2B00A93C22 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6ED62F9314970F2B00A93C22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6ED62F9514970F2B00A93C22 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6ED62F9914970F2B00A93C22 /* TegakiStroke-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TegakiStroke-Info.plist"; sourceTree = "<group>"; };
+		6ED62F9B14970F2B00A93C22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6ED62F9D14970F2B00A93C22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ED62F9F14970F2B00A93C22 /* TegakiStroke-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TegakiStroke-Prefix.pch"; sourceTree = "<group>"; };
+		6ED62FA014970F2B00A93C22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ED62FA114970F2B00A93C22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6ED62FA314970F2B00A93C22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6ED62FA414970F2B00A93C22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6ED62FA714970F2B00A93C22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6ED62FB8149716AB00A93C22 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		6ED62FB9149716AC00A93C22 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		6ED62FBB149716BE00A93C22 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		6ED62FBD1497186A00A93C22 /* template.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = template.db; sourceTree = "<group>"; };
+		6ED62FC31497A03600A93C22 /* CharsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharsViewController.h; sourceTree = "<group>"; };
+		6ED62FC41497A03600A93C22 /* CharsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharsViewController.m; sourceTree = "<group>"; };
+		6ED62FC51497A03600A93C22 /* CharsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharsViewController.xib; sourceTree = "<group>"; };
+		6ED62FC81497A36200A93C22 /* Chars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chars.h; sourceTree = "<group>"; };
+		6ED62FC91497A36300A93C22 /* Chars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chars.m; sourceTree = "<group>"; };
+		6ED62FDF1497AC7600A93C22 /* TegakiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TegakiViewController.h; sourceTree = "<group>"; };
+		6ED62FE01497AC7700A93C22 /* TegakiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TegakiViewController.m; sourceTree = "<group>"; };
+		6ED62FE11497AC7800A93C22 /* TegakiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TegakiViewController.xib; sourceTree = "<group>"; };
+		6ED62FE81497ADBF00A93C22 /* TegakiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TegakiView.h; sourceTree = "<group>"; };
+		6ED62FE91497ADBF00A93C22 /* TegakiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TegakiView.m; sourceTree = "<group>"; };
+		6ED62FEB1497B57600A93C22 /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		6ED62FEC1497B57700A93C22 /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		6ED62FEF1497BDB600A93C22 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		6ED62FF01497BDB600A93C22 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		6ED62FF11497BDB600A93C22 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		6ED62FF21497BDB600A93C22 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		6ED62FF31497BDB600A93C22 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		6ED62FF41497BDB600A93C22 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		6ED62FF51497BDB600A93C22 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		6ED62FF61497BDB600A93C22 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		6ED62FF71497BDB600A93C22 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		6ED62FF81497BDB600A93C22 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		6ED62FF91497BDB600A93C22 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		6ED62FFA1497BDB600A93C22 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		6ED62FFB1497BDB600A93C22 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ED62F8A14970F2B00A93C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED62FBC149716BE00A93C22 /* libsqlite3.dylib in Frameworks */,
+				6ED62F9214970F2B00A93C22 /* UIKit.framework in Frameworks */,
+				6ED62F9414970F2B00A93C22 /* Foundation.framework in Frameworks */,
+				6ED62F9614970F2B00A93C22 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ED62F8214970F2A00A93C22 = {
+			isa = PBXGroup;
+			children = (
+				6ED62F9714970F2B00A93C22 /* TegakiStroke */,
+				6ED62FEE1497BDB600A93C22 /* JSON */,
+				6ED62F9014970F2B00A93C22 /* Frameworks */,
+				6ED62F8E14970F2B00A93C22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ED62F8E14970F2B00A93C22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ED62F8D14970F2B00A93C22 /* TegakiStroke.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ED62F9014970F2B00A93C22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ED62FBB149716BE00A93C22 /* libsqlite3.dylib */,
+				6ED62F9114970F2B00A93C22 /* UIKit.framework */,
+				6ED62F9314970F2B00A93C22 /* Foundation.framework */,
+				6ED62F9514970F2B00A93C22 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ED62F9714970F2B00A93C22 /* TegakiStroke */ = {
+			isa = PBXGroup;
+			children = (
+				6ED62FA014970F2B00A93C22 /* AppDelegate.h */,
+				6ED62FA114970F2B00A93C22 /* AppDelegate.m */,
+				6ED62FA314970F2B00A93C22 /* ViewController.h */,
+				6ED62FA414970F2B00A93C22 /* ViewController.m */,
+				6ED62FA614970F2B00A93C22 /* ViewController.xib */,
+				6ED62FC31497A03600A93C22 /* CharsViewController.h */,
+				6ED62FC41497A03600A93C22 /* CharsViewController.m */,
+				6ED62FC51497A03600A93C22 /* CharsViewController.xib */,
+				6ED62FDF1497AC7600A93C22 /* TegakiViewController.h */,
+				6ED62FE01497AC7700A93C22 /* TegakiViewController.m */,
+				6ED62FE11497AC7800A93C22 /* TegakiViewController.xib */,
+				6ED62FE81497ADBF00A93C22 /* TegakiView.h */,
+				6ED62FE91497ADBF00A93C22 /* TegakiView.m */,
+				6ED62FB8149716AB00A93C22 /* Model.h */,
+				6ED62FB9149716AC00A93C22 /* Model.m */,
+				6ED62FC81497A36200A93C22 /* Chars.h */,
+				6ED62FC91497A36300A93C22 /* Chars.m */,
+				6ED62FEB1497B57600A93C22 /* Stroke.h */,
+				6ED62FEC1497B57700A93C22 /* Stroke.m */,
+				6ED62FBD1497186A00A93C22 /* template.db */,
+				6ED62F9814970F2B00A93C22 /* Supporting Files */,
+			);
+			path = TegakiStroke;
+			sourceTree = "<group>";
+		};
+		6ED62F9814970F2B00A93C22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ED62F9914970F2B00A93C22 /* TegakiStroke-Info.plist */,
+				6ED62F9A14970F2B00A93C22 /* InfoPlist.strings */,
+				6ED62F9D14970F2B00A93C22 /* main.m */,
+				6ED62F9F14970F2B00A93C22 /* TegakiStroke-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ED62FEE1497BDB600A93C22 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				6ED62FEF1497BDB600A93C22 /* JSON.h */,
+				6ED62FF01497BDB600A93C22 /* NSObject+SBJSON.h */,
+				6ED62FF11497BDB600A93C22 /* NSObject+SBJSON.m */,
+				6ED62FF21497BDB600A93C22 /* NSString+SBJSON.h */,
+				6ED62FF31497BDB600A93C22 /* NSString+SBJSON.m */,
+				6ED62FF41497BDB600A93C22 /* SBJSON.h */,
+				6ED62FF51497BDB600A93C22 /* SBJSON.m */,
+				6ED62FF61497BDB600A93C22 /* SBJsonBase.h */,
+				6ED62FF71497BDB600A93C22 /* SBJsonBase.m */,
+				6ED62FF81497BDB600A93C22 /* SBJsonParser.h */,
+				6ED62FF91497BDB600A93C22 /* SBJsonParser.m */,
+				6ED62FFA1497BDB600A93C22 /* SBJsonWriter.h */,
+				6ED62FFB1497BDB600A93C22 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ED62F8C14970F2B00A93C22 /* TegakiStroke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ED62FAB14970F2B00A93C22 /* Build configuration list for PBXNativeTarget "TegakiStroke" */;
+			buildPhases = (
+				6ED62F8914970F2B00A93C22 /* Sources */,
+				6ED62F8A14970F2B00A93C22 /* Frameworks */,
+				6ED62F8B14970F2B00A93C22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TegakiStroke;
+			productName = TegakiStroke;
+			productReference = 6ED62F8D14970F2B00A93C22 /* TegakiStroke.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ED62F8414970F2A00A93C22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "E2 Inc";
+			};
+			buildConfigurationList = 6ED62F8714970F2B00A93C22 /* Build configuration list for PBXProject "TegakiStroke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6ED62F8214970F2A00A93C22;
+			productRefGroup = 6ED62F8E14970F2B00A93C22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ED62F8C14970F2B00A93C22 /* TegakiStroke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ED62F8B14970F2B00A93C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED62F9C14970F2B00A93C22 /* InfoPlist.strings in Resources */,
+				6ED62FA814970F2B00A93C22 /* ViewController.xib in Resources */,
+				6ED62FBE1497186A00A93C22 /* template.db in Resources */,
+				6ED62FC71497A03600A93C22 /* CharsViewController.xib in Resources */,
+				6ED62FE31497AC7800A93C22 /* TegakiViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ED62F8914970F2B00A93C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED62F9E14970F2B00A93C22 /* main.m in Sources */,
+				6ED62FA214970F2B00A93C22 /* AppDelegate.m in Sources */,
+				6ED62FA514970F2B00A93C22 /* ViewController.m in Sources */,
+				6ED62FBA149716AC00A93C22 /* Model.m in Sources */,
+				6ED62FC61497A03600A93C22 /* CharsViewController.m in Sources */,
+				6ED62FCA1497A36300A93C22 /* Chars.m in Sources */,
+				6ED62FE21497AC7800A93C22 /* TegakiViewController.m in Sources */,
+				6ED62FEA1497ADBF00A93C22 /* TegakiView.m in Sources */,
+				6ED62FED1497B57800A93C22 /* Stroke.m in Sources */,
+				6ED62FFC1497BDB600A93C22 /* NSObject+SBJSON.m in Sources */,
+				6ED62FFD1497BDB600A93C22 /* NSString+SBJSON.m in Sources */,
+				6ED62FFE1497BDB600A93C22 /* SBJSON.m in Sources */,
+				6ED62FFF1497BDB600A93C22 /* SBJsonBase.m in Sources */,
+				6ED630001497BDB600A93C22 /* SBJsonParser.m in Sources */,
+				6ED630011497BDB600A93C22 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6ED62F9A14970F2B00A93C22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ED62F9B14970F2B00A93C22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6ED62FA614970F2B00A93C22 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ED62FA714970F2B00A93C22 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ED62FA914970F2B00A93C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6ED62FAA14970F2B00A93C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ED62FAC14970F2B00A93C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TegakiStroke/TegakiStroke-Prefix.pch";
+				INFOPLIST_FILE = "TegakiStroke/TegakiStroke-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6ED62FAD14970F2B00A93C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TegakiStroke/TegakiStroke-Prefix.pch";
+				INFOPLIST_FILE = "TegakiStroke/TegakiStroke-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ED62F8714970F2B00A93C22 /* Build configuration list for PBXProject "TegakiStroke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ED62FA914970F2B00A93C22 /* Debug */,
+				6ED62FAA14970F2B00A93C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ED62FAB14970F2B00A93C22 /* Build configuration list for PBXNativeTarget "TegakiStroke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ED62FAC14970F2B00A93C22 /* Debug */,
+				6ED62FAD14970F2B00A93C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ED62F8414970F2A00A93C22 /* Project object */;
+}
